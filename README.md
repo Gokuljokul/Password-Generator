@@ -3,13 +3,13 @@ We can generate the password file with social engineering using pycharm and we c
 Password generation using social enginering,
 
 
-steps,
-1. It works in windows, linux.
-2. Install python 3,
+# steps,
+## 1. It works in windows, linux.
+## 2. Install python 3,
 https://www.python.org/ftp/python/3.7.4/python-3.7.4.exe
 
 after installation of python, Check python
-Open Command prompt,
+### Open Command prompt,
 
 
 Microsoft Windows [Version 6.1.7601]
@@ -30,8 +30,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 
 
-3. Install Pycharm
+## 3. Install Pycharm
 https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows
+open this link it will directly redirect you to Pycharm intallation file.
 
 install downloaded file from, (pycharm-professional-2019.2.1)
 
@@ -53,18 +54,18 @@ from itertools import permutations
 for item in permutations('GOKULgokulSIsiZER0', 15):
     print(''.join(item))
 
-Note: 
+### Note: 
 ('A to Z, a to z, 0 to 9, any symbols', Password digits if known or <15)
 or 
 
 
 If we already known the social engineer of his/her password like,
-Name: Princy
-Surename: Albert
-NickName: Puppy
-DOB:19980604
-Others: Lovely, Cutie, Teady, Qwertyuiop, BoyfriendName and DOB, etc
-
+#### Name: Princy
+#### Surename: Albert
+#### NickName: Puppy
+#### DOB:19980604
+#### Others: Lovely, Cutie, Teady, Qwertyuiop, BoyfriendName and DOB, etc
+note,
 if we have 2 same letters no need add again but we need to add it both Uppercase and Lowercase like,
 
 For Example,
