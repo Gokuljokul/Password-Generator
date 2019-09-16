@@ -15,7 +15,6 @@ after installation of python, Check python
 Microsoft Windows [Version 6.1.7601]
 Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 
-:
 
     C:\Users\Username*-PC>python
     Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit(AMD64)] on win32
@@ -26,7 +25,6 @@ Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
     >>> C
     3
     >>> exit()
-
 
 
 ## 3. Install Pycharm
@@ -48,8 +46,6 @@ it will create the python file name as Password.py in PassGenerator project.
 Double click the Password.py file in PassGenerator project.
 
 Type further lines,
-
-
 
     from itertools import permutations
     for item in permutations('GOKULgokulSIsiZER0', 15):
