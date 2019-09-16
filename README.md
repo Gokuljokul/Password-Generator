@@ -48,11 +48,11 @@ it will create the python file name as Password.py in PassGenerator project.
 
 Double click the Password.py file in PassGenerator project.
 
-and type further lines,
+### Type further lines,
 
-from itertools import permutations
-for item in permutations('GOKULgokulSIsiZER0', 15):
-    print(''.join(item))
+##### from itertools import permutations
+##### for item in permutations('GOKULgokulSIsiZER0', 15):
+#####    print(''.join(item))
 
 ### Note: 
 ('A to Z, a to z, 0 to 9, any symbols', Password digits if known or <15)
