@@ -15,19 +15,34 @@ after installation of python, Check python
 Microsoft Windows [Version 6.1.7601]
 Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 
-C:\Users\Username*-PC>python
-Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit
-(AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
+:
+
+    C:\Users\Username*-PC>python
+:
+
+    Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit(AMD64)] on win32
+:
+
+    Type "help", "copyright", "credits" or "license" for more information.
 
 :
 
     >>> A=1
->>> B=2
->>> C=A+B
->>> C
-3
->>> exit()
+:
+
+    >>> B=2
+:
+
+    >>> C=A+B
+:
+
+    >>> C
+:
+
+    3
+:
+
+    >>> exit()
 
 
 
@@ -50,11 +65,17 @@ it will create the python file name as Password.py in PassGenerator project.
 
 Double click the Password.py file in PassGenerator project.
 
-### Type further lines,
+Type further lines,
 
-##### from itertools import permutations
-##### for item in permutations('GOKULgokulSIsiZER0', 15):
-#####    print(''.join(item))
+:
+
+    from itertools import permutations
+:
+
+    for item in permutations('GOKULgokulSIsiZER0', 15):
+:
+
+    print(''.join(item))
 
 ### Note: 
 ('A to Z, a to z, 0 to 9, any symbols', Password digits if known or <15)
@@ -71,7 +92,9 @@ note,
 if we have 2 same letters no need add again but we need to add it both Uppercase and Lowercase like,
 
 For Example,
-### for item in permutations('PRINCYALBETUOVLDQW198064', 13):
+:
+
+    for item in permutations('PRINCYALBETUOVLDQW198064', 13):
 
 
 save the project and right click the Password.py in PassGenerator project, then click Run. 
