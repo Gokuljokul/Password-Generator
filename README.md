@@ -18,32 +18,14 @@ Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
 :
 
     C:\Users\Username*-PC>python
-:
-
     Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit(AMD64)] on win32
-:
-
     Type "help", "copyright", "credits" or "license" for more information.
-
-:
-
     >>> A=1
-:
-
     >>> B=2
-:
-
     >>> C=A+B
-:
-
     >>> C
-:
-
     3
-:
-
     >>> exit()
-
 
 
 
@@ -70,11 +52,7 @@ Type further lines,
 :
 
     from itertools import permutations
-:
-
     for item in permutations('GOKULgokulSIsiZER0', 15):
-:
-
     print(''.join(item))
 
 ### Note: 
@@ -95,7 +73,6 @@ For Example,
 :
 
     for item in permutations('PRINCYALBETUOVLDQW198064', 13):
-
 
 save the project and right click the Password.py in PassGenerator project, then click Run. 
 While running project, Automattically passwords will generate., and also it will visible in bottom of the screen.
