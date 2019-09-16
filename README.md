@@ -69,7 +69,7 @@ note,
 if we have 2 same letters no need add again but we need to add it both Uppercase and Lowercase like,
 
 For Example,
-for item in permutations('PRINCYALBETUOVLDQW198064', 13):
+### for item in permutations('PRINCYALBETUOVLDQW198064', 13):
 
 
 save the project and right click the Password.py in PassGenerator project, then click Run. 
